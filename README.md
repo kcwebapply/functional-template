@@ -1,4 +1,6 @@
 # functional-template
+[![Build Status](https://ci.appveyor.com/api/projects/status/github/kcwebappy/functional-template?branch=master&svg=true)](https://ci.appveyor.com/project/kcwebapply/functional-template.git)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/jp.spring-boot-reference/kcwebappy/functional-template/badge.svg)](https://maven-badges.herokuapp.com/maven-central/jp.spring-boot.reference/functional-template)
 
 functiona-template is __rabbitTemplate__ Wrapper that make it easy to set callBack-function on message Recognition.
 
@@ -6,7 +8,7 @@ Adding pom.xml this dependency
 ```xml
 <dependency>
 	<groupId>jp.spring-boot-reference</groupId>
-	<artifactId>rabbit</artifactId>
+	<artifactId>functional-template</artifactId>
 	<version>1.0</version>
 </dependency>
 ```
