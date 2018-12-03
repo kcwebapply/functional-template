@@ -5,7 +5,7 @@ functiona-template is __rabbitTemplate__ Wrapper that make it easy to set callBa
 Adding pom.xml this dependency 
 ```xml
 <dependency>
-	<groupId>jp.springbootreference</groupId>
+	<groupId>jp.spring-boot-reference</groupId>
 	<artifactId>rabbit</artifactId>
 	<version>1.0</version>
 </dependency>
