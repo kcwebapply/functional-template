@@ -1,6 +1,5 @@
 # functional-template
-
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/jp.spring-boot-reference/functional-template/badge.svg)](https://maven-badges.herokuapp.com/maven-central/jp.spring-boot-reference/functional-template)
+[![Maven Central]( https://maven-badges.herokuapp.com/maven-central/jp.spring-boot-reference/functional-template/badge.svg )](https://maven-badges.herokuapp.com/maven-central/jp.spring-boot-reference/functional-template)
 
 https://oss.sonatype.org/content/repositories/releases/jp/spring-boot-reference/functional-template/
 
