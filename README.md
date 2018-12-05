@@ -20,8 +20,14 @@ Adding pom.xml this dependency
 You can use `functionaTemplate` as you use __RabbitTemplate__ . 
 Set callbackMethod.
 
-```java:example
-functionalTemplate.setMessageConverter(jackson2JsonMessageConverter()); // set property as you do on rabbitTemplate
-functionalTemplate.setACKMethod(human,human.getClass().getMethod("getName")); // set callback method on message-ack.
+```Java
+FunctionalTemplate functionalTemplate = new FunctionalTemplate();
+// set property as you do on rabbitTemplate
+functionalTemplate.setMessageConverter(jackson2JsonMessageConverter()); 
+ // set callback method on message-ack. 
+functionalTemplate.setACKMethod(human,human.getClass().getMethod("getName"));
+// publish message 
 functionalTemplate.convertAndSend("messageQueue",human); // publish. 
 ```
+
+
