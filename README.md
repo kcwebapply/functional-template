@@ -3,6 +3,7 @@
 ![Java](https://img.shields.io/badge/Language-Java-f88909.svg)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/jp.spring-boot-reference/functional-template/badge.svg)](https://maven-badges.herokuapp.com/maven-central/jp.spring-boot-reference/functional-template)
 
+https://search.maven.org/artifact/jp.spring-boot-reference/functional-template/1.1/jar
 https://oss.sonatype.org/content/repositories/releases/jp/spring-boot-reference/functional-template/
 
 functiona-template is __rabbitTemplate__ Wrapper that make it easy to set callBack-function on message Recognition.
