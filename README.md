@@ -8,16 +8,9 @@ https://oss.sonatype.org/content/repositories/releases/jp/spring-boot-reference/
 
 functiona-template is __rabbitTemplate__ Wrapper that make it easy to set callBack-function on message Recognition.
 
-Adding pom.xml this dependency 
-```xml
-<dependency>
-	<groupId>jp.spring-boot-reference</groupId>
-	<artifactId>functional-template</artifactId>
-	<version>1.1</version>
-</dependency>
-```
 
 
+## Usage
 You can use `functionaTemplate` as you use __RabbitTemplate__ . 
 Set callbackMethod.
 
@@ -30,5 +23,23 @@ functionalTemplate.setACKMethod(human,human.getClass().getMethod("getName"));
 // publish message 
 functionalTemplate.convertAndSend("messageQueue",human); // publish. 
 ```
+
+## Dependency
+**Maven**
+```xml
+<dependency>
+	<groupId>jp.spring-boot-reference</groupId>
+	<artifactId>functional-template</artifactId>
+	<version>1.1</version>
+</dependency>
+```
+
+**Gradle**
+```gradle
+compile 'jp.spring-boot-reference:functional-template:1.1'
+```
+
+
+
 
 
